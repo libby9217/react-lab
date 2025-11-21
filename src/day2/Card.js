@@ -4,7 +4,7 @@ const Card = ({file, title})=>{
     return(
         <div className="card">
             <div className="img-wrap">
-                <img src={`../images/kakao_img_0${file}.png`} alt={`카드이미지0${file}`} />
+                <img src={`./images/kakao_img_0${file}.png`} alt={`카드이미지0${file}`} />
                 <h2>{title}</h2>
             </div>
         </div>
